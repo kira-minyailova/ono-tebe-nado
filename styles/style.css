@@ -195,11 +195,11 @@ a {
     color: #FFF;
     font-size: 22px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 120%;
     text-decoration-line: underline;
     text-transform: uppercase;
-    z-index: 1;
+    z-index: 1; 
 }
 .card__text {
     color: #FFF;
