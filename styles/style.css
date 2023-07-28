@@ -91,7 +91,7 @@ a {
 .align-text_center {
     display: block;
     text-align: center;
-    padding: 0 25px 5px 50px;
+    padding: 0 25px 4px 38px;
 }
 .align-text_right {
     display: block;
@@ -128,7 +128,7 @@ a {
     line-height: 28px;
     text-transform: uppercase;
     word-spacing: 18px;
-    padding-right: 75px;
+    padding-right: 79px;
     align-self: center;
 }
 .bet-button {
@@ -199,7 +199,7 @@ a {
     line-height: 120%;
     text-decoration-line: underline;
     text-transform: uppercase;
-    z-index: 1; 
+    z-index: 1;
 }
 .card__text {
     color: #FFF;
