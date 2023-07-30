@@ -37,7 +37,7 @@ address {
     align-items: center;
     max-width: 1440px;
     padding: 92px 49px 92px 51px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .header-logo-image {
@@ -86,7 +86,7 @@ address {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: 1;  
+    z-index: 1;
 }
 
 .overlay {
