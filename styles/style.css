@@ -28,7 +28,7 @@ a {
 
 address {
     font-style: normal;
-    line-height: 24.3px
+    line-height: 24.3px 
 }
 
 .header {
@@ -94,7 +94,7 @@ address {
     opacity: 0.6;
     background: #000000;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     top: 0;
     left: 0;
     z-index: -1;
@@ -219,9 +219,8 @@ address {
     min-height: 450px;
     width: 100%;
     max-width: 430px;
-    z-index: 1; 
+    z-index: 1;
 }
-
 
 .lots-overlay {
     flex-grow: 1;
@@ -229,7 +228,7 @@ address {
     background: #000;
     position: absolute;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     top: 0;
     left: 0;
     z-index: -1;
@@ -278,7 +277,7 @@ address {
 .about {
     max-width: 1440px;
     padding: 0 49px 0 51px;
-    margin: 0 auto; 
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -340,7 +339,7 @@ address {
 .footer {
     max-width: 1440px;
     padding: 180px 49px 0 51px;
-    margin: 0 auto; 
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -382,19 +381,16 @@ address {
     .lots-card-list {
         flex-wrap: wrap;
         flex-direction: column;
-    }
-
+   }
     .lots-card-list-item {
         white-space: nowrap;
-    }
-
+   }
     .card-text {
         white-space: wrap;
-    }
-
+   }
     .card-title {
         white-space: wrap;
-    }
+   }
 }
 
 @media(max-width:1100px) {
@@ -403,64 +399,59 @@ address {
         padding-right: 20px;
         font-size: 16px;
         row-gap: 12px;
-    }
-
+   }
     .header-menu-list-item {
         width: 100%;
         margin-bottom: 0px;
-    }
+   }
 }
 
 @media(max-width:1100px) {
     .address {
         flex-wrap: wrap;
-    }
-
-     .header-address {
+   }
+    .header-address {
         width: 50%;
-    } 
+   }
 }
 
 @media(max-width:1100px) {
     .footer-menu-list {
         flex-wrap: wrap;
-    }
-
+   }
     .footer-menu-list-item {
         width: 100%;
         white-space: nowrap;
         margin-bottom: 10px;
         padding-right: 20px;
         font-size: 16px;
-    }
+   }
 }
 
 @media(max-width:1100px) {
     .address {
         flex-wrap: wrap;
-    }
-
-     .footer-address {
+   }
+    .footer-address {
         width: 100%;
         padding-right: 50px;
-    } 
+   }
 }
 
 @media(max-width:1100px) {
     .footer-social-list {
         flex-wrap: nowrap;
         padding-left: 200px;
-    }
-
-     .footer-social-list-item {
+   }
+    .footer-social-list-item {
         width: 100%;
-    } 
-
+   }
     .footer-social-icon {
         width: 34px;
         height: 34px;
-    }
+   }
 }
+
 
 
 
